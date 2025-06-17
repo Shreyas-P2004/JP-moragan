@@ -5,3 +5,6 @@ As a quantitative researcher visualize the data to find patterns and consider wh
 Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future. 
 Your code should take a date as input and return a price estimate.
 
+# Dataset Used
+
+
