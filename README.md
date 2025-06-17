@@ -6,6 +6,6 @@ Analyze the data to estimate the purchase price of gas at any date in the past a
 Your code should take a date as input and return a price estimate.
 
 # Dataset Used
-https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv
+ <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv">Dataset</a>
 
 
