@@ -8,4 +8,8 @@ Your code should take a date as input and return a price estimate.
 # Dataset Used
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv">Dataset</a>
 
+# Questions(KPI)
+
+ 
+
 
