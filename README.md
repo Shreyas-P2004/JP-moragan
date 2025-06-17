@@ -26,6 +26,7 @@ Your code should take a date as input and return a price estimate.
 
 # Codes
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
+ <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task2.ipynb">Code2</a>
 
 
  
