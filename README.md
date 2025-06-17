@@ -28,6 +28,24 @@ Your code should take a date as input and return a price estimate.
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task2.ipynb">Code2</a>
 
+# Process
+- Imported the pandas, numpy, matplotlib, datetime , sklearn and linear regression libraries.
+- Mounted the google drive and read the dataset.
+- Plotted the graph for the dates vs the varying prices using matplotlib.
+- Selected only the january prices and months.
+- Used linear regression to the fit the model.
+- Extraploated for the next year.
+- Created an array for the next year price.
+- Started from the last day of the year and append the dates in the array for current month and year.
+- Moved to the first day of the previous month.
+- Then moved back one day to get the last day of the current month using timedelta funtion.
+- Reversed the array in the ascending order.
+- Read the last dates for each month for the year 2025.
+- Created a new dataframe for the 2025 dates and prices.
+- Did the final analysis of the gas price and forecasted it.
+- Predicted the graph using the historical data vs improved gas price model using the sin function.
+- Calculated the various parameters in gas storage contracts such as injection rates, withdrawal dates , injection rate , injection withdrawal costs , maximum storage volume and storage cost per month.
+
 
  
 
