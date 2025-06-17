@@ -25,6 +25,7 @@ Your code should take a date as input and return a price estimate.
 6) Storage costs.
 
 # Codes
+ <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
 
 
  
