@@ -5,6 +5,7 @@
 Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future. 
 Your code should take a date as input and return a price estimate.
 2) Performed the credit risk analysis to train the model  that will estimate the probability of default for a borrower. Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
+3) Bicketed the FICO score which is standardized credit score quantifies the creditworthiness of a borrower to a value between 300 to 850, construct a technique for predicting the PD (probability of default) for the borrowers using these scores with the help of dynamic programming.
 
 # Dataset Used
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv">Dataset</a>
@@ -28,6 +29,8 @@ Your code should take a date as input and return a price estimate.
 
 - You should produce a function that can take in the properties of a loan and output the expected loss.
 - You can also use multiple methods and provide a comparative analysis.
+-  You need to create a rating map that maps the FICO score of the borrowers to a rating where a lower rating signifies a better credit score.
+-  Given set number of buckets corresponding to the number of input labels for the model, she would like to find out the boundaries that best summarize the data. 
 
 # Codes
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
@@ -82,6 +85,15 @@ Your code should take a date as input and return a price estimate.
  - Predicted the class labels for the test set.
  - Computed the confusion matrix using decision tree algorithm.
  - Plotted the confusion matrix using seaborn.
- - 
-
+ - Bucketed the FICO scores by importing the scipy , binom and matplotlib.
+ - Loaded the consumer loan dataset into the python IDE.
+ - Initialized 5 buckets for simplicity.
+ - Then used the log-likelihood function to initialize the bucket boundaries.
+ - Optimized the bucket boundaries.
+ - Optimized the buckets.
+ - Updated the data with the optimized buckets.
+ - Tested the 4,5,6,7,8,9 and 10 buckets with 2 iterations each.
+ - Then getting the output for the best number of the buckets using optimization.
+ - Plotted the final bucketing.
+ - Updated the dataframe with the optimal bucket and plotted the graph. 
 
