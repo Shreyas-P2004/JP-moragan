@@ -7,6 +7,7 @@ Your code should take a date as input and return a price estimate.
 
 # Dataset Used
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv">Dataset</a>
+ <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Task%203%20and%204_Loan_Data.csv">Dataset</a>
 
 # Questions(KPI)
 - Each point in the data set corresponds to the purchase price of natural gas at the end of a month, from 31st October 2020 to 30th September 2024.
