@@ -1,9 +1,10 @@
 # Natural Gas Storage Contract 
 
 # Objective
-As a quantitative researcher visualize the data to find patterns and consider what factors might cause the price of natural gas to vary. This can include looking at months of the year for seasonal trends that affect the prices, but market holidays, weekends, and bank holidays need not be accounted for. Each point in the data set corresponds to the purchase price of natural gas at the end of a month, from 31st October 2020 to 30th September 2024.
+1) As a quantitative researcher visualize the data to find patterns and consider what factors might cause the price of natural gas to vary. This can include looking at months of the year for seasonal trends that affect the prices, but market holidays, weekends, and bank holidays need not be accounted for. Each point in the data set corresponds to the purchase price of natural gas at the end of a month, from 31st October 2020 to 30th September 2024.
 Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future. 
 Your code should take a date as input and return a price estimate.
+2) Performed the credit risk analysis to train the model  that will estimate the probability of default for a borrower. Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
 
 # Dataset Used
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/Nat_Gas.csv">Dataset</a>
@@ -25,9 +26,13 @@ Your code should take a date as input and return a price estimate.
 5) The maximum volume that can be stored.
 6) Storage costs.
 
+- You should produce a function that can take in the properties of a loan and output the expected loss.
+- You can also use multiple methods and provide a comparative analysis.
+
 # Codes
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task2.ipynb">Code2</a>
+ 
 
 # Process
 - Imported the pandas, numpy, matplotlib, datetime , sklearn and linear regression libraries.
