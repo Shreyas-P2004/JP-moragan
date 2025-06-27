@@ -33,6 +33,7 @@ Your code should take a date as input and return a price estimate.
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task1.ipynb">Code1</a>
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task2.ipynb">Code2</a>
  <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task3.ipynb">Code3</a>
+ <a href = "https://github.com/Shreyas-P2004/JP-moragan/blob/main/JP_Morgan_task4.ipynb">Code4</a>
  
  
 
@@ -55,6 +56,32 @@ Your code should take a date as input and return a price estimate.
 - Calculated the various parameters in gas storage contracts such as injection rates, withdrawal dates , injection rate , injection withdrawal costs , maximum storage volume and storage cost per month.
 
 
- 
+ - Used logistic regression and decision tree methods to provide a comparative analysis.
+ - Imported pandas, sklearn , Standard scaler and ROC(Reciever operating characteristic curve) and AUC curve
+ - Spilted the data into fetaures and target.
+ - Scaled the features.
+ - Splited the data into train and the test sets.
+ - Initialized the logistic regression model.
+ - Trained the logistic regression model.
+ - Predicted the probabbilities of the default.
+ - Plotted the confusion matrix using seaborn.
+ - Created the dataframes to hold the feature names and coefficients.
+ - Printed the sorted features.
+ - Used the loss function to trained the model.
+ - Calculated the expected loss.
+ - Tested the borrower features.
+ - Calculated the expected loss for the borrower.
+ - Plot the decision tree with a depth of 2.
+ - Extracted Information about the decision path within the tree, focusing on the leaf nodes.
+ - Got this ids of the leaf nodes.
+ - Initialized an empty list to hold the leaf information.
+ - Iterated over each leaf node.
+ - Got the number of samples at the given leaf.
+ - Appended the leaf information to our list.
+ - Produced an array containing the counts of [class_0, class_1] for all leaves.
+ - Predicted the class labels for the test set.
+ - Computed the confusion matrix using decision tree algorithm.
+ - Plotted the confusion matrix using seaborn.
+ - 
 
 
